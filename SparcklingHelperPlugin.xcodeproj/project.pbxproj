@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130C6AC01B53599E00735D15 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C6ABF1B53599E00735D15 /* AppKit.framework */; };
+		130C6AC21B53599E00735D15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C6AC11B53599E00735D15 /* Foundation.framework */; };
+		130C6AC61B53599E00735D15 /* SparcklingHelperPlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 130C6AC51B53599E00735D15 /* SparcklingHelperPlugin.xcscheme */; };
+		130C6AC91B53599E00735D15 /* SparcklingHelperPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C6AC81B53599E00735D15 /* SparcklingHelperPlugin.m */; };
+		130C6ACC1B53599E00735D15 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C6ACB1B53599E00735D15 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130C6ABC1B53599E00735D15 /* SparcklingHelperPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparcklingHelperPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		130C6ABF1B53599E00735D15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		130C6AC11B53599E00735D15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		130C6AC51B53599E00735D15 /* SparcklingHelperPlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SparcklingHelperPlugin.xcscheme; path = SparcklingHelperPlugin.xcodeproj/xcshareddata/xcschemes/SparcklingHelperPlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		130C6AC71B53599E00735D15 /* SparcklingHelperPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparcklingHelperPlugin.h; sourceTree = "<group>"; };
+		130C6AC81B53599E00735D15 /* SparcklingHelperPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparcklingHelperPlugin.m; sourceTree = "<group>"; };
+		130C6ACA1B53599E00735D15 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		130C6ACB1B53599E00735D15 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		130C6ACD1B53599E00735D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130C6ABA1B53599E00735D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130C6AC01B53599E00735D15 /* AppKit.framework in Frameworks */,
+				130C6AC21B53599E00735D15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130C6AB31B53599E00735D15 = {
+			isa = PBXGroup;
+			children = (
+				130C6AC31B53599E00735D15 /* SparcklingHelperPlugin */,
+				130C6ABE1B53599E00735D15 /* Frameworks */,
+				130C6ABD1B53599E00735D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		130C6ABD1B53599E00735D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				130C6ABC1B53599E00735D15 /* SparcklingHelperPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		130C6ABE1B53599E00735D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				130C6ABF1B53599E00735D15 /* AppKit.framework */,
+				130C6AC11B53599E00735D15 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		130C6AC31B53599E00735D15 /* SparcklingHelperPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				130C6AC71B53599E00735D15 /* SparcklingHelperPlugin.h */,
+				130C6AC81B53599E00735D15 /* SparcklingHelperPlugin.m */,
+				130C6ACA1B53599E00735D15 /* NSObject_Extension.h */,
+				130C6ACB1B53599E00735D15 /* NSObject_Extension.m */,
+				130C6ACD1B53599E00735D15 /* Info.plist */,
+				130C6AC41B53599E00735D15 /* Supporting Files */,
+			);
+			path = SparcklingHelperPlugin;
+			sourceTree = "<group>";
+		};
+		130C6AC41B53599E00735D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				130C6AC51B53599E00735D15 /* SparcklingHelperPlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130C6ABB1B53599E00735D15 /* SparcklingHelperPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130C6AD01B53599E00735D15 /* Build configuration list for PBXNativeTarget "SparcklingHelperPlugin" */;
+			buildPhases = (
+				130C6AB81B53599E00735D15 /* Sources */,
+				130C6AB91B53599E00735D15 /* Resources */,
+				130C6ABA1B53599E00735D15 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparcklingHelperPlugin;
+			productName = SparcklingHelperPlugin;
+			productReference = 130C6ABC1B53599E00735D15 /* SparcklingHelperPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130C6AB41B53599E00735D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mzp;
+				TargetAttributes = {
+					130C6ABB1B53599E00735D15 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 130C6AB71B53599E00735D15 /* Build configuration list for PBXProject "SparcklingHelperPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 130C6AB31B53599E00735D15;
+			productRefGroup = 130C6ABD1B53599E00735D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130C6ABB1B53599E00735D15 /* SparcklingHelperPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130C6AB91B53599E00735D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130C6AC61B53599E00735D15 /* SparcklingHelperPlugin.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130C6AB81B53599E00735D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130C6AC91B53599E00735D15 /* SparcklingHelperPlugin.m in Sources */,
+				130C6ACC1B53599E00735D15 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		130C6ACE1B53599E00735D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		130C6ACF1B53599E00735D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		130C6AD11B53599E00735D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SparcklingHelperPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.SparcklingHelperPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		130C6AD21B53599E00735D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SparcklingHelperPlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mzp.SparcklingHelperPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130C6AB71B53599E00735D15 /* Build configuration list for PBXProject "SparcklingHelperPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130C6ACE1B53599E00735D15 /* Debug */,
+				130C6ACF1B53599E00735D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130C6AD01B53599E00735D15 /* Build configuration list for PBXNativeTarget "SparcklingHelperPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130C6AD11B53599E00735D15 /* Debug */,
+				130C6AD21B53599E00735D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130C6AB41B53599E00735D15 /* Project object */;
+}
