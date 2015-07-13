@@ -12,6 +12,8 @@
 		130C6AC61B53599E00735D15 /* SparcklingHelperPlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 130C6AC51B53599E00735D15 /* SparcklingHelperPlugin.xcscheme */; };
 		130C6AC91B53599E00735D15 /* SparcklingHelperPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C6AC81B53599E00735D15 /* SparcklingHelperPlugin.m */; };
 		130C6ACC1B53599E00735D15 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C6ACB1B53599E00735D15 /* NSObject_Extension.m */; };
+		130C6AD61B53AEE000735D15 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C6AD51B53AEE000735D15 /* DVTFoundation.framework */; };
+		130C6AD81B53C09E00735D15 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C6AD71B53C09E00735D15 /* IDEKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		130C6ACA1B53599E00735D15 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		130C6ACB1B53599E00735D15 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		130C6ACD1B53599E00735D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130C6AD31B53AEA100735D15 /* DVTFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		130C6AD41B53AEA100735D15 /* IDEKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEKit.h; sourceTree = "<group>"; };
+		130C6AD51B53AEE000735D15 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = "../../../../Applications/Xcode-beta.app/Contents/SharedFrameworks/DVTFoundation.framework"; sourceTree = "<group>"; };
+		130C6AD71B53C09E00735D15 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = "../../../../Applications/Xcode-beta.app/Contents/Frameworks/IDEKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130C6AD81B53C09E00735D15 /* IDEKit.framework in Frameworks */,
+				130C6AD61B53AEE000735D15 /* DVTFoundation.framework in Frameworks */,
 				130C6AC01B53599E00735D15 /* AppKit.framework in Frameworks */,
 				130C6AC21B53599E00735D15 /* Foundation.framework in Frameworks */,
 			);
@@ -59,6 +67,8 @@
 		130C6ABE1B53599E00735D15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				130C6AD71B53C09E00735D15 /* IDEKit.framework */,
+				130C6AD51B53AEE000735D15 /* DVTFoundation.framework */,
 				130C6ABF1B53599E00735D15 /* AppKit.framework */,
 				130C6AC11B53599E00735D15 /* Foundation.framework */,
 			);
@@ -68,6 +78,8 @@
 		130C6AC31B53599E00735D15 /* SparcklingHelperPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				130C6AD31B53AEA100735D15 /* DVTFoundation.h */,
+				130C6AD41B53AEA100735D15 /* IDEKit.h */,
 				130C6AC71B53599E00735D15 /* SparcklingHelperPlugin.h */,
 				130C6AC81B53599E00735D15 /* SparcklingHelperPlugin.m */,
 				130C6ACA1B53599E00735D15 /* NSObject_Extension.h */,
@@ -240,6 +252,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Xcode-beta.app/Contents/SharedFrameworks",
+					"/Applications/Xcode-beta.app/Contents/Frameworks",
+				);
 				INFOPLIST_FILE = SparcklingHelperPlugin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -255,6 +271,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Xcode-beta.app/Contents/SharedFrameworks",
+					"/Applications/Xcode-beta.app/Contents/Frameworks",
+				);
 				INFOPLIST_FILE = SparcklingHelperPlugin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;

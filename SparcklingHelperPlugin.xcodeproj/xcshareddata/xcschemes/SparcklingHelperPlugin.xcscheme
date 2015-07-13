@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "890A4B3E171F031300AFE577"
+               BlueprintIdentifier = "130C6ABB1B53599E00735D15"
                BuildableName = "SparcklingHelperPlugin.xcplugin"
                BlueprintName = "SparcklingHelperPlugin"
                ReferencedContainer = "container:SparcklingHelperPlugin.xcodeproj">
@@ -43,6 +43,8 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -53,15 +55,17 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "NO"
       debugXPCServices = "NO"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "NO"
       viewDebuggingEnabled = "No">
       <PathRunnable
-         FilePath = "/Applications/Xcode.app">
+         runnableDebuggingMode = "0"
+         FilePath = "/Applications/Xcode-beta.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "890A4B3E171F031300AFE577"
+            BlueprintIdentifier = "130C6ABB1B53599E00735D15"
             BuildableName = "SparcklingHelperPlugin.xcplugin"
             BlueprintName = "SparcklingHelperPlugin"
             ReferencedContainer = "container:SparcklingHelperPlugin.xcodeproj">
